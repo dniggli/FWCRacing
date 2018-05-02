@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EEDDCB44-CF09-45EA-883A-062D3E7BB10A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeBase2</RootNamespace>
+    <AssemblyName>CodeBase2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddPrinter.cs" />
+    <Compile Include="ByteArrays.cs" />
+    <Compile Include="Databases\baseMySQL.cs" />
+    <Compile Include="Databases\baseSDF.cs" />
+    <Compile Include="Databases\baseMDF.cs" />
+    <Compile Include="Databases\baseAccessDB.cs" />
+    <Compile Include="Databases\CSVReader.cs" />
+    <Compile Include="Databases\getDI.cs" />
+    <Compile Include="Databases\getSoft.cs" />
+    <Compile Include="Databases\JavascriptConverters.cs" />
+    <Compile Include="DNS.cs" />
+    <Compile Include="EmbeddedResources\EmbeddedResources.cs" />
+    <Compile Include="Entities\Group.cs" />
+    <Compile Include="Entities\PathDirectory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PathDirectory.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EventLog.cs" />
+    <Compile Include="ExtensionMethods\EntityFrameworkContext.cs" />
+    <Compile Include="ExtensionMethods\IEnumerable.cs" />
+    <Compile Include="DateLibrary.cs" />
+    <Compile Include="ExtensionMethods\User_IPrincipal.cs" />
+    <Compile Include="FTP.cs" />
+    <Compile Include="GenericTypeConverter.cs" />
+    <Compile Include="Labeler.cs" />
+    <Compile Include="Entities\Device.cs" />
+    <Compile Include="Ping.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Registry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services.cs" />
+    <Compile Include="EmbeddedResources\TestData\PathDirectory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PathDirectory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="URMC\ActiveDirectory.cs" />
+    <Compile Include="URMC\ADDevice.cs" />
+    <Compile Include="URMC\ADObject.cs" />
+    <Compile Include="URMC\ADUser.cs" />
+    <Compile Include="URMC\Authenticate.cs" />
+    <Compile Include="URMC\baseUser.cs" />
+    <Compile Include="URMC\Email.cs" />
+    <Compile Include="URMC\getMySQLUser.cs" />
+    <Compile Include="URMC\MySQLDevice.cs" />
+    <Compile Include="URMC\MySQLGroup.cs" />
+    <Compile Include="URMC\MySQLUser.cs" />
+    <Compile Include="URMC\MySQL_ADUser.cs" />
+    <Compile Include="URMC\Request.cs" />
+    <Compile Include="Web\ControlSearch.cs" />
+    <Compile Include="Web\PostSubmitter.cs" />
+    <Compile Include="Web\RenderUserControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Lists.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Entities\PathDirectory.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PathDirectory.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Properties\DataSources\CodeBase2.Entities.EntitiesPathDirectory.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="EmbeddedResources\TestData\PathDirectory.xsc">
+      <DependentUpon>PathDirectory.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="EmbeddedResources\TestData\PathDirectory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PathDirectory.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="EmbeddedResources\TestData\PathDirectory.xss">
+      <DependentUpon>PathDirectory.xsd</DependentUpon>
+    </None>
+    <None Include="UsersAndGroups.mwb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedResources\TestData\TestData.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="URMC\AuthScript.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExtensionMethods\HTMLHelper\Futures\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

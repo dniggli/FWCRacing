@@ -1,0 +1,1709 @@
+<?xml version="1.0" standalone="yes"?>
+<pathdirectory xmlns="http://tempuri.org/PathDirectory.xsd">
+  <device>
+    <Device_ID>1</Device_ID>
+    <devicemodel_iddevicemodel>2</devicemodel_iddevicemodel>
+    <room>S22104</room>
+    <mac_addr />
+    <ip_addr>172.16.60.252</ip_addr>
+    <name>C42</name>
+  </device>
+  <device>
+    <Device_ID>2</Device_ID>
+    <devicemodel_iddevicemodel>2</devicemodel_iddevicemodel>
+    <room />
+    <mac_addr />
+    <ip_addr>172.18.146.54</ip_addr>
+    <name>G23</name>
+  </device>
+  <device>
+    <Device_ID>3</Device_ID>
+    <devicemodel_iddevicemodel>2</devicemodel_iddevicemodel>
+    <room />
+    <mac_addr />
+    <ip_addr>172.18.141.146</ip_addr>
+    <name>L881</name>
+  </device>
+  <device>
+    <Device_ID>4</Device_ID>
+    <devicemodel_iddevicemodel>2</devicemodel_iddevicemodel>
+    <room />
+    <mac_addr />
+    <ip_addr>172.18.141.147</ip_addr>
+    <name>L83</name>
+  </device>
+  <user_has_group>
+    <User_ID>1</User_ID>
+    <Group_ID>69</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>1</User_ID>
+    <Group_ID>21</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>2</User_ID>
+    <Group_ID>69</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>2</User_ID>
+    <Group_ID>73</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>3</User_ID>
+    <Group_ID>69</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>3</User_ID>
+    <Group_ID>73</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>5</User_ID>
+    <Group_ID>69</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>11</User_ID>
+    <Group_ID>74</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>12</User_ID>
+    <Group_ID>74</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>13</User_ID>
+    <Group_ID>74</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>14</User_ID>
+    <Group_ID>74</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>15</User_ID>
+    <Group_ID>74</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>17</User_ID>
+    <Group_ID>74</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>18</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>18</User_ID>
+    <Group_ID>72</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>19</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>19</User_ID>
+    <Group_ID>72</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>20</User_ID>
+    <Group_ID>69</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>20</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>21</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>22</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>23</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>24</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>25</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>26</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>27</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>28</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>29</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>30</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>31</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>32</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>33</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>34</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>35</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>36</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>36</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>37</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>38</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>39</User_ID>
+    <Group_ID>70</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>40</User_ID>
+    <Group_ID>73</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>41</User_ID>
+    <Group_ID>73</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>42</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>43</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>44</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>45</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>46</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>47</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <user_has_group>
+    <User_ID>48</User_ID>
+    <Group_ID>71</Group_ID>
+  </user_has_group>
+  <device_details>
+    <Device_ID>1</Device_ID>
+    <location_detail>Marlene Scott's Desk</location_detail>
+    <notes />
+    <closet />
+    <jack />
+  </device_details>
+  <device_has_group>
+    <Device_ID>1</Device_ID>
+    <Group_ID>21</Group_ID>
+  </device_has_group>
+  <device_has_group>
+    <Device_ID>2</Device_ID>
+    <Group_ID>58</Group_ID>
+  </device_has_group>
+  <device_has_group>
+    <Device_ID>3</Device_ID>
+    <Group_ID>31</Group_ID>
+  </device_has_group>
+  <device_has_group>
+    <Device_ID>4</Device_ID>
+    <Group_ID>58</Group_ID>
+  </device_has_group>
+  <devicemodel>
+    <iddevicemodel>1</iddevicemodel>
+    <Make>Zebra</Make>
+    <Type>Labeler</Type>
+    <Model>DA402</Model>
+  </devicemodel>
+  <devicemodel>
+    <iddevicemodel>2</iddevicemodel>
+    <Make>Zebra</Make>
+    <Type>Labeler</Type>
+    <Model>LP2844Z</Model>
+  </devicemodel>
+  <devicemodel>
+    <iddevicemodel>3</iddevicemodel>
+    <Make>Unknown</Make>
+    <Type>Computer</Type>
+    <Model>Unknown</Model>
+  </devicemodel>
+  <group>
+    <id>1</id>
+    <lft>1</lft>
+    <rgt>104</rgt>
+    <name>root</name>
+  </group>
+  <group>
+    <id>21</id>
+    <lft>102</lft>
+    <rgt>103</rgt>
+    <name>CLSS</name>
+  </group>
+  <group>
+    <id>22</id>
+    <lft>32</lft>
+    <rgt>101</rgt>
+    <name>Strong</name>
+  </group>
+  <group>
+    <id>23</id>
+    <lft>20</lft>
+    <rgt>31</rgt>
+    <name>Highland</name>
+  </group>
+  <group>
+    <id>24</id>
+    <lft>10</lft>
+    <rgt>19</rgt>
+    <name>Ridgeland</name>
+  </group>
+  <group>
+    <id>25</id>
+    <lft>4</lft>
+    <rgt>9</rgt>
+    <name>CorporateWoods</name>
+  </group>
+  <group>
+    <id>26</id>
+    <lft>99</lft>
+    <rgt>100</rgt>
+    <name>Chemistry</name>
+  </group>
+  <group>
+    <id>27</id>
+    <lft>97</lft>
+    <rgt>98</rgt>
+    <name>Andrology</name>
+  </group>
+  <group>
+    <id>28</id>
+    <lft>95</lft>
+    <rgt>96</rgt>
+    <name>Hematology</name>
+  </group>
+  <group>
+    <id>30</id>
+    <lft>79</lft>
+    <rgt>80</rgt>
+    <name>Biochemical Genetics</name>
+  </group>
+  <group>
+    <id>31</id>
+    <lft>77</lft>
+    <rgt>78</rgt>
+    <name>Blood Bank</name>
+  </group>
+  <group>
+    <id>32</id>
+    <lft>75</lft>
+    <rgt>76</rgt>
+    <name>Cytogenetics</name>
+  </group>
+  <group>
+    <id>33</id>
+    <lft>73</lft>
+    <rgt>74</rgt>
+    <name>Cytopathology</name>
+  </group>
+  <group>
+    <id>34</id>
+    <lft>71</lft>
+    <rgt>72</rgt>
+    <name>Flow Cytometry</name>
+  </group>
+  <group>
+    <id>35</id>
+    <lft>69</lft>
+    <rgt>70</rgt>
+    <name>Immunology</name>
+  </group>
+  <group>
+    <id>36</id>
+    <lft>67</lft>
+    <rgt>68</rgt>
+    <name>Microbiology</name>
+  </group>
+  <group>
+    <id>37</id>
+    <lft>65</lft>
+    <rgt>66</rgt>
+    <name>Molecular Diagnostics</name>
+  </group>
+  <group>
+    <id>38</id>
+    <lft>63</lft>
+    <rgt>64</rgt>
+    <name>Phlebotomy, Outpatient</name>
+  </group>
+  <group>
+    <id>39</id>
+    <lft>61</lft>
+    <rgt>62</rgt>
+    <name>Protein Lab</name>
+  </group>
+  <group>
+    <id>40</id>
+    <lft>59</lft>
+    <rgt>60</rgt>
+    <name>Toxicology</name>
+  </group>
+  <group>
+    <id>41</id>
+    <lft>57</lft>
+    <rgt>58</rgt>
+    <name>Specimen Management</name>
+  </group>
+  <group>
+    <id>42</id>
+    <lft>55</lft>
+    <rgt>56</rgt>
+    <name>Tissue Typing</name>
+  </group>
+  <group>
+    <id>44</id>
+    <lft>53</lft>
+    <rgt>54</rgt>
+    <name>Surgical Pathology</name>
+  </group>
+  <group>
+    <id>45</id>
+    <lft>51</lft>
+    <rgt>52</rgt>
+    <name>Research Labs</name>
+  </group>
+  <group>
+    <id>46</id>
+    <lft>49</lft>
+    <rgt>50</rgt>
+    <name>Residents</name>
+  </group>
+  <group>
+    <id>47</id>
+    <lft>47</lft>
+    <rgt>48</rgt>
+    <name>Administration</name>
+  </group>
+  <group>
+    <id>48</id>
+    <lft>45</lft>
+    <rgt>46</rgt>
+    <name>Hematopathology</name>
+  </group>
+  <group>
+    <id>49</id>
+    <lft>43</lft>
+    <rgt>44</rgt>
+    <name>Point of Care Testing</name>
+  </group>
+  <group>
+    <id>50</id>
+    <lft>41</lft>
+    <rgt>42</rgt>
+    <name>Not Pathology</name>
+  </group>
+  <group>
+    <id>51</id>
+    <lft>39</lft>
+    <rgt>40</rgt>
+    <name>Pathology Education</name>
+  </group>
+  <group>
+    <id>52</id>
+    <lft>37</lft>
+    <rgt>38</rgt>
+    <name>Electron Microscopy</name>
+  </group>
+  <group>
+    <id>53</id>
+    <lft>35</lft>
+    <rgt>36</rgt>
+    <name>Biological Stain Commission</name>
+  </group>
+  <group>
+    <id>54</id>
+    <lft>33</lft>
+    <rgt>34</rgt>
+    <name>Infectious Disease</name>
+  </group>
+  <group>
+    <id>56</id>
+    <lft>29</lft>
+    <rgt>30</rgt>
+    <name>Specimen Management</name>
+  </group>
+  <group>
+    <id>57</id>
+    <lft>27</lft>
+    <rgt>28</rgt>
+    <name>Hematology</name>
+  </group>
+  <group>
+    <id>58</id>
+    <lft>25</lft>
+    <rgt>26</rgt>
+    <name>Blood Bank</name>
+  </group>
+  <group>
+    <id>59</id>
+    <lft>23</lft>
+    <rgt>24</rgt>
+    <name>Chemistry</name>
+  </group>
+  <group>
+    <id>60</id>
+    <lft>21</lft>
+    <rgt>22</rgt>
+    <name>Surgical Pathology</name>
+  </group>
+  <group>
+    <id>62</id>
+    <lft>7</lft>
+    <rgt>8</rgt>
+    <name>Billing</name>
+  </group>
+  <group>
+    <id>63</id>
+    <lft>5</lft>
+    <rgt>6</rgt>
+    <name>ISD</name>
+  </group>
+  <group>
+    <id>64</id>
+    <lft>17</lft>
+    <rgt>18</rgt>
+    <name>Phlebotomy</name>
+  </group>
+  <group>
+    <id>65</id>
+    <lft>15</lft>
+    <rgt>16</rgt>
+    <name>Outreach</name>
+  </group>
+  <group>
+    <id>66</id>
+    <lft>13</lft>
+    <rgt>14</rgt>
+    <name>Client Services</name>
+  </group>
+  <group>
+    <id>67</id>
+    <lft>11</lft>
+    <rgt>12</rgt>
+    <name>Clinical Trials</name>
+  </group>
+  <group>
+    <id>68</id>
+    <lft>81</lft>
+    <rgt>94</rgt>
+    <name>Autopsy and Neuropathology</name>
+  </group>
+  <group>
+    <id>69</id>
+    <lft>92</lft>
+    <rgt>93</rgt>
+    <name>Admin</name>
+  </group>
+  <group>
+    <id>70</id>
+    <lft>90</lft>
+    <rgt>91</rgt>
+    <name>Prosector</name>
+  </group>
+  <group>
+    <id>71</id>
+    <lft>88</lft>
+    <rgt>89</rgt>
+    <name>Attending</name>
+  </group>
+  <group>
+    <id>72</id>
+    <lft>86</lft>
+    <rgt>87</rgt>
+    <name>Neuropathologist</name>
+  </group>
+  <group>
+    <id>73</id>
+    <lft>84</lft>
+    <rgt>85</rgt>
+    <name>Clerical</name>
+  </group>
+  <group>
+    <id>74</id>
+    <lft>82</lft>
+    <rgt>83</rgt>
+    <name>Assistant</name>
+  </group>
+  <group>
+    <id>76</id>
+    <lft>2</lft>
+    <rgt>3</rgt>
+    <name>ActiveDirectory</name>
+  </group>
+  <group_isdepartment>
+    <Group_ID>21</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>26</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>27</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>28</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>30</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>31</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>32</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>33</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>34</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>35</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>36</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>37</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>38</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>39</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>40</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>41</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>42</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>44</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>45</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>46</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>47</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>48</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>49</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>50</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>51</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>52</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>53</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>54</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>56</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>57</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>58</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>59</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>60</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>62</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>63</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>64</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>65</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>66</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>67</Group_ID>
+  </group_isdepartment>
+  <group_isdepartment>
+    <Group_ID>68</Group_ID>
+  </group_isdepartment>
+  <user>
+    <ID>1</ID>
+    <Timestamp>2010-03-30T16:33:43-04:00</Timestamp>
+    <AccountName>cvanvranken</AccountName>
+    <LastName>Van Vranken</LastName>
+    <MiddleInitial>C</MiddleInitial>
+    <FirstName>Chris</FirstName>
+    <Email>Christopher_Vanvranken@URMC.Rochester.edu</Email>
+    <Shift>Day</Shift>
+    <Room>2-2104</Room>
+    <Phone>275-2433</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Christopher</AD_FirstName>
+    <AD_LastName>Van Vranken</AD_LastName>
+    <AD_Email>Christopher_Vanvranken@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>275-2433</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Van vranken, Christopher</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>2</ID>
+    <Timestamp>2010-03-30T16:35:23-04:00</Timestamp>
+    <AccountName>nplumeri</AccountName>
+    <LastName>Plumeri</LastName>
+    <MiddleInitial />
+    <FirstName>Nora</FirstName>
+    <Email>Nora_Plumeri@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>275-1959</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Nora</AD_FirstName>
+    <AD_LastName>Plumeri</AD_LastName>
+    <AD_Email>Nora_Plumeri@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>275-1959</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Plumeri, Nora</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>3</ID>
+    <Timestamp>2010-03-30T16:35:28-04:00</Timestamp>
+    <AccountName>lcrandall</AccountName>
+    <LastName>Crandall</LastName>
+    <MiddleInitial />
+    <FirstName>Linda</FirstName>
+    <Email>Linda_Crandall@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-3202</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Linda</AD_FirstName>
+    <AD_LastName>Crandall</AD_LastName>
+    <AD_Email>Linda_Crandall@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-3202</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Crandall, Linda</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>4</ID>
+    <Timestamp>2010-03-30T16:38:37-04:00</Timestamp>
+    <AccountName>jprutsman</AccountName>
+    <LastName>Prutsman</LastName>
+    <MiddleInitial />
+    <FirstName>Jennifer</FirstName>
+    <Email>Jennifer_Prutsman@urmc.rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone />
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Jennifer</AD_FirstName>
+    <AD_LastName>Prutsman</AD_LastName>
+    <AD_Email>Jennifer_Prutsman@urmc.rochester.edu</AD_Email>
+    <AD_Phone />
+    <AD_MiddleInitial />
+    <AD_CommonName>Prutsman, Jennifer</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>5</ID>
+    <Timestamp>2010-03-30T16:44:39-04:00</Timestamp>
+    <AccountName>wandrews</AccountName>
+    <LastName>Andrews</LastName>
+    <MiddleInitial />
+    <FirstName>William</FirstName>
+    <Email>William_Andrews@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-9674</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>William</AD_FirstName>
+    <AD_LastName>Andrews</AD_LastName>
+    <AD_Email>William_Andrews@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-9674</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Andrews, William</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>6</ID>
+    <Timestamp>2010-03-30T16:50:10-04:00</Timestamp>
+    <AccountName>nsimpson</AccountName>
+    <LastName>Simpson</LastName>
+    <MiddleInitial />
+    <FirstName>Nancy</FirstName>
+    <Email>Nancy_Simpson@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-2534</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Nancy</AD_FirstName>
+    <AD_LastName>Simpson</AD_LastName>
+    <AD_Email>Nancy_Simpson@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-2534</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Simpson, Nancy</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>7</ID>
+    <Timestamp>2010-03-30T16:51:31-04:00</Timestamp>
+    <AccountName>mlfuller</AccountName>
+    <LastName>Fuller</LastName>
+    <MiddleInitial>L</MiddleInitial>
+    <FirstName>Michelle</FirstName>
+    <Email>Michelle_Fuller@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>275-1881</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Michelle</AD_FirstName>
+    <AD_LastName>Fuller</AD_LastName>
+    <AD_Email>Michelle_Fuller@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>275-1881</AD_Phone>
+    <AD_MiddleInitial>L</AD_MiddleInitial>
+    <AD_CommonName>Fuller, Michelle</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>8</ID>
+    <Timestamp>2010-03-30T16:53:28-04:00</Timestamp>
+    <AccountName>msage</AccountName>
+    <LastName>Sage</LastName>
+    <MiddleInitial />
+    <FirstName>Mark</FirstName>
+    <Email>Mark_Sage@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-2364</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Mark</AD_FirstName>
+    <AD_LastName>Sage</AD_LastName>
+    <AD_Email>Mark_Sage@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-2364</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Sage, Mark</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>9</ID>
+    <Timestamp>2010-03-30T17:04:50-04:00</Timestamp>
+    <AccountName>mnewby</AccountName>
+    <LastName>Newby</LastName>
+    <MiddleInitial />
+    <FirstName>Melanie</FirstName>
+    <Email>Melanie_Newby@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-3858</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Melanie</AD_FirstName>
+    <AD_LastName>Newby</AD_LastName>
+    <AD_Email>Melanie_Newby@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-3858</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Newby, Melanie</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>10</ID>
+    <Timestamp>2010-03-30T17:05:42-04:00</Timestamp>
+    <AccountName>mbowers</AccountName>
+    <LastName>Bowers</LastName>
+    <MiddleInitial />
+    <FirstName>Mark</FirstName>
+    <Email>Mark_Bowers@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-0762</Phone>
+    <Cell />
+    <AD_Department>Clinical Labs</AD_Department>
+    <AD_FirstName>Mark</AD_FirstName>
+    <AD_LastName>Bowers</AD_LastName>
+    <AD_Email>Mark_Bowers@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-0762</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Bowers, Mark</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>11</ID>
+    <Timestamp>2010-03-30T17:12:35-04:00</Timestamp>
+    <AccountName>mnorton</AccountName>
+    <LastName>Norton</LastName>
+    <MiddleInitial>B</MiddleInitial>
+    <FirstName>Michael</FirstName>
+    <Email>Michael_Norton@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>275-1597</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Michael</AD_FirstName>
+    <AD_LastName>Norton</AD_LastName>
+    <AD_Email>Michael_Norton@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>275-1597</AD_Phone>
+    <AD_MiddleInitial>B</AD_MiddleInitial>
+    <AD_CommonName>Norton, Michael</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>12</ID>
+    <Timestamp>2010-03-30T17:12:50-04:00</Timestamp>
+    <AccountName>pmeyers</AccountName>
+    <LastName>Meyers</LastName>
+    <MiddleInitial>W</MiddleInitial>
+    <FirstName>Patrick</FirstName>
+    <Email>Patrick_Meyers@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-3202</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Patrick</AD_FirstName>
+    <AD_LastName>Meyers</AD_LastName>
+    <AD_Email>Patrick_Meyers@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-3202</AD_Phone>
+    <AD_MiddleInitial>W</AD_MiddleInitial>
+    <AD_CommonName>Meyers, Patrick W.</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>13</ID>
+    <Timestamp>2010-03-30T17:15:16-04:00</Timestamp>
+    <AccountName>mhouser</AccountName>
+    <LastName>Houser</LastName>
+    <MiddleInitial />
+    <FirstName>Michelle</FirstName>
+    <Email>Michelle_Houser@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>(585) 227-1196</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Michelle</AD_FirstName>
+    <AD_LastName>Houser</AD_LastName>
+    <AD_Email>Michelle_Houser@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>(585) 227-1196</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Houser, Michelle</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>14</ID>
+    <Timestamp>2010-03-30T17:16:19-04:00</Timestamp>
+    <AccountName>ljefferson</AccountName>
+    <LastName>Jefferson</LastName>
+    <MiddleInitial />
+    <FirstName>Lawrence</FirstName>
+    <Email>Lawrence_Jefferson@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-3202</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Lawrence</AD_FirstName>
+    <AD_LastName>Jefferson</AD_LastName>
+    <AD_Email>Lawrence_Jefferson@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-3202</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Jefferson, Lawrence</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>15</ID>
+    <Timestamp>2010-03-30T17:19:36-04:00</Timestamp>
+    <AccountName>doliver</AccountName>
+    <LastName>Oliver</LastName>
+    <MiddleInitial />
+    <FirstName>Donnell</FirstName>
+    <Email>Donnell_Oliver@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>(585) 527-9233</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Donnell</AD_FirstName>
+    <AD_LastName>Oliver</AD_LastName>
+    <AD_Email>Donnell_Oliver@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>(585) 527-9233</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Oliver, Donnell</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>16</ID>
+    <Timestamp>2010-03-30T17:24:04-04:00</Timestamp>
+    <AccountName>jvanatta</AccountName>
+    <LastName>Van Atta</LastName>
+    <MiddleInitial>M</MiddleInitial>
+    <FirstName>Jill</FirstName>
+    <Email>Jill_VanAtta@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-1447</Phone>
+    <Cell />
+    <AD_Department>Biomedical Genetics </AD_Department>
+    <AD_FirstName>Jill</AD_FirstName>
+    <AD_LastName>Van Atta</AD_LastName>
+    <AD_Email>Jill_VanAtta@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-1447</AD_Phone>
+    <AD_MiddleInitial>M</AD_MiddleInitial>
+    <AD_CommonName>Van Atta, Jill</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>17</ID>
+    <Timestamp>2010-03-30T17:29:56-04:00</Timestamp>
+    <AccountName>rmartinez</AccountName>
+    <LastName>Martinez</LastName>
+    <MiddleInitial />
+    <FirstName>Raul</FirstName>
+    <Email>Raul_Martinez@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>(585) 406-5055</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Raul</AD_FirstName>
+    <AD_LastName>Martinez</AD_LastName>
+    <AD_Email>Raul_Martinez@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>(585) 406-5055</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Martinez, Raul</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>18</ID>
+    <Timestamp>2010-03-30T17:33:43-04:00</Timestamp>
+    <AccountName>gyeaney</AccountName>
+    <LastName>Yeaney</LastName>
+    <MiddleInitial>A</MiddleInitial>
+    <FirstName>Gabrielle</FirstName>
+    <Email>Gabrielle_Yeaney@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4581</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Gabrielle</AD_FirstName>
+    <AD_LastName>Yeaney</AD_LastName>
+    <AD_Email>Gabrielle_Yeaney@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4581</AD_Phone>
+    <AD_MiddleInitial>A</AD_MiddleInitial>
+    <AD_CommonName>Yeaney, Gabrielle</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>19</ID>
+    <Timestamp>2010-03-30T17:33:43-04:00</Timestamp>
+    <AccountName>mdjohnson</AccountName>
+    <LastName>Johnson</LastName>
+    <MiddleInitial>D</MiddleInitial>
+    <FirstName>Mahlon</FirstName>
+    <Email>Mahlon_Johnson@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-276-3087</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Mahlon</AD_FirstName>
+    <AD_LastName>Johnson</AD_LastName>
+    <AD_Email>Mahlon_Johnson@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-276-3087</AD_Phone>
+    <AD_MiddleInitial>D</AD_MiddleInitial>
+    <AD_CommonName>Johnson, Mahlon</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>20</ID>
+    <Timestamp>2010-03-30T17:35:05-04:00</Timestamp>
+    <AccountName>bgoldman</AccountName>
+    <LastName>Goldman</LastName>
+    <MiddleInitial>I</MiddleInitial>
+    <FirstName>Bruce</FirstName>
+    <Email>Bruce_Goldman@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-3401</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Bruce</AD_FirstName>
+    <AD_LastName>Goldman</AD_LastName>
+    <AD_Email>Bruce_Goldman@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-3401</AD_Phone>
+    <AD_MiddleInitial>I</AD_MiddleInitial>
+    <AD_CommonName>Goldman, Bruce I</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>21</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>jfindeishosey</AccountName>
+    <LastName>Findeis-Hosey</LastName>
+    <MiddleInitial />
+    <FirstName>Jennifer</FirstName>
+    <Email>Jennifer_Findeis-hosey@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Jennifer</AD_FirstName>
+    <AD_LastName>Findeis-Hosey</AD_LastName>
+    <AD_Email>Jennifer_Findeis-hosey@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Findeis-hosey, Jennifer</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>22</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>ngranger</AccountName>
+    <LastName>Granger</LastName>
+    <MiddleInitial />
+    <FirstName>Nadia</FirstName>
+    <Email>Nadia_Granger@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Nadia</AD_FirstName>
+    <AD_LastName>Granger</AD_LastName>
+    <AD_Email>Nadia_Granger@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Granger, Nadia</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>23</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>jpryor</AccountName>
+    <LastName>Pryor</LastName>
+    <MiddleInitial>G</MiddleInitial>
+    <FirstName>Jennifer</FirstName>
+    <Email>Jennifer_Pryor@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Jennifer</AD_FirstName>
+    <AD_LastName>Pryor</AD_LastName>
+    <AD_Email>Jennifer_Pryor@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4580</AD_Phone>
+    <AD_MiddleInitial>G</AD_MiddleInitial>
+    <AD_CommonName>Pryor, Jennifer G.</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>24</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>jvella</AccountName>
+    <LastName>Vella</LastName>
+    <MiddleInitial />
+    <FirstName>Joseph</FirstName>
+    <Email>Joseph_Vella@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Joseph</AD_FirstName>
+    <AD_LastName>Vella</AD_LastName>
+    <AD_Email>Joseph_Vella@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Vella, Joseph</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>25</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>yhu</AccountName>
+    <LastName>Hu</LastName>
+    <MiddleInitial />
+    <FirstName>Ying</FirstName>
+    <Email>Ying_Hu@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Ying</AD_FirstName>
+    <AD_LastName>Hu</AD_LastName>
+    <AD_Email>Ying_Hu@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Hu, Ying</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>26</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>tmahar</AccountName>
+    <LastName>Mahar</LastName>
+    <MiddleInitial>J</MiddleInitial>
+    <FirstName>Tara</FirstName>
+    <Email>Tara_Mahar@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Tara</AD_FirstName>
+    <AD_LastName>Mahar</AD_LastName>
+    <AD_Email>Tara_Mahar@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial>J</AD_MiddleInitial>
+    <AD_CommonName>Mahar, Tara</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>27</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>cszych</AccountName>
+    <LastName>Szych</LastName>
+    <MiddleInitial />
+    <FirstName>Christine</FirstName>
+    <Email>Christine_Szych@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Christine</AD_FirstName>
+    <AD_LastName>Szych</AD_LastName>
+    <AD_Email>Christine_Szych@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Szych, Christine</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>28</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>bkoltz</AccountName>
+    <LastName>Koltz</LastName>
+    <MiddleInitial>R</MiddleInitial>
+    <FirstName>Brooke</FirstName>
+    <Email>Brooke_Koltz@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Brooke</AD_FirstName>
+    <AD_LastName>Koltz</AD_LastName>
+    <AD_Email>Brooke_Koltz@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial>R</AD_MiddleInitial>
+    <AD_CommonName>Koltz, Brooke</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>29</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>mlusco</AccountName>
+    <LastName>Lusco</LastName>
+    <MiddleInitial>A</MiddleInitial>
+    <FirstName>Mark</FirstName>
+    <Email>Mark_Lusco@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Mark</AD_FirstName>
+    <AD_LastName>Lusco</AD_LastName>
+    <AD_Email>Mark_Lusco@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial>A</AD_MiddleInitial>
+    <AD_CommonName>Lusco, Mark</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>30</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>nyarid</AccountName>
+    <LastName>Yarid</LastName>
+    <MiddleInitial />
+    <FirstName>Nicole</FirstName>
+    <Email>nicole_burr@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Nicole</AD_FirstName>
+    <AD_LastName>Yarid</AD_LastName>
+    <AD_Email>nicole_burr@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Yarid, Nicole</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>31</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>kristina_subik</AccountName>
+    <LastName>Subik</LastName>
+    <MiddleInitial />
+    <FirstName>Kristina</FirstName>
+    <Email>Kristina_Subik@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Kristina</AD_FirstName>
+    <AD_LastName>Subik</AD_LastName>
+    <AD_Email>Kristina_Subik@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Subik, Kristina</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>32</ID>
+    <Timestamp>2010-03-30T17:57:25-04:00</Timestamp>
+    <AccountName>jcappel</AccountName>
+    <LastName>Cappel</LastName>
+    <MiddleInitial>R</MiddleInitial>
+    <FirstName>Jaclyn</FirstName>
+    <Email>Jaclyn_Cappel@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Jaclyn</AD_FirstName>
+    <AD_LastName>Cappel</AD_LastName>
+    <AD_Email>Jaclyn_Cappel@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial>R</AD_MiddleInitial>
+    <AD_CommonName>Cappel, Jaclyn</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>33</ID>
+    <Timestamp>2010-03-30T17:59:09-04:00</Timestamp>
+    <AccountName>jfrederiksen</AccountName>
+    <LastName>Frederiksen</LastName>
+    <MiddleInitial>K</MiddleInitial>
+    <FirstName>John</FirstName>
+    <Email>John_Frederiksen@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>John</AD_FirstName>
+    <AD_LastName>Frederiksen</AD_LastName>
+    <AD_Email>John_Frederiksen@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial>K</AD_MiddleInitial>
+    <AD_CommonName>Frederiksen, John K</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>34</ID>
+    <Timestamp>2010-03-30T17:59:09-04:00</Timestamp>
+    <AccountName>jgordetsky</AccountName>
+    <LastName>Gordetsky</LastName>
+    <MiddleInitial>B</MiddleInitial>
+    <FirstName>Jennifer</FirstName>
+    <Email>Jennifer_Gordetsky@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Jennifer</AD_FirstName>
+    <AD_LastName>Gordetsky</AD_LastName>
+    <AD_Email>Jennifer_Gordetsky@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial>B</AD_MiddleInitial>
+    <AD_CommonName>Gordetsky, Jennifer B</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>35</ID>
+    <Timestamp>2010-03-30T17:59:09-04:00</Timestamp>
+    <AccountName>jye</AccountName>
+    <LastName>Ye</LastName>
+    <MiddleInitial />
+    <FirstName>Jiqing</FirstName>
+    <Email>Jiqing_Ye@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Jiqing</AD_FirstName>
+    <AD_LastName>Ye</AD_LastName>
+    <AD_Email>Jiqing_Ye@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Ye, Jiqing</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>36</ID>
+    <Timestamp>2010-03-30T17:59:09-04:00</Timestamp>
+    <AccountName>kmwoolf</AccountName>
+    <LastName>Woolf</LastName>
+    <MiddleInitial>M</MiddleInitial>
+    <FirstName>Kirsten</FirstName>
+    <Email>Kirsten_Woolf@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>(585) 173-3389</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Kirsten</AD_FirstName>
+    <AD_LastName>Woolf</AD_LastName>
+    <AD_Email>Kirsten_Woolf@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>(585) 173-3389</AD_Phone>
+    <AD_MiddleInitial>M</AD_MiddleInitial>
+    <AD_CommonName>Woolf, Kirsten</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>37</ID>
+    <Timestamp>2010-03-30T17:59:09-04:00</Timestamp>
+    <AccountName>jweisensel2</AccountName>
+    <LastName>Weisensel</LastName>
+    <MiddleInitial />
+    <FirstName>Joseph</FirstName>
+    <Email>Joseph_Weisensel@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4580</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Joseph</AD_FirstName>
+    <AD_LastName>Weisensel</AD_LastName>
+    <AD_Email>Joseph_Weisensel@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Weisensel, Joseph</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>38</ID>
+    <Timestamp>2010-03-30T17:59:09-04:00</Timestamp>
+    <AccountName>sjohnykutty</AccountName>
+    <LastName>Johnykutty</LastName>
+    <MiddleInitial />
+    <FirstName>Sharlin</FirstName>
+    <Email>Sharlin_Johnykutty@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4580</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Sharlin</AD_FirstName>
+    <AD_LastName>Johnykutty</AD_LastName>
+    <AD_Email>Sharlin_Johnykutty@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Johnykutty, Sharlin</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>39</ID>
+    <Timestamp>2010-03-30T17:59:09-04:00</Timestamp>
+    <AccountName>benjamin_marsh</AccountName>
+    <LastName>Marsh</LastName>
+    <MiddleInitial />
+    <FirstName>Benjamin</FirstName>
+    <Email>Benjamin_Marsh@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone />
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Benjamin</AD_FirstName>
+    <AD_LastName>Marsh</AD_LastName>
+    <AD_Email>Benjamin_Marsh@URMC.Rochester.edu</AD_Email>
+    <AD_Phone />
+    <AD_MiddleInitial />
+    <AD_CommonName>Marsh, Benjamin</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>40</ID>
+    <Timestamp>2010-03-31T08:15:01-04:00</Timestamp>
+    <AccountName>gholloway</AccountName>
+    <LastName>Holloway</LastName>
+    <MiddleInitial />
+    <FirstName>Grace</FirstName>
+    <Email>Grace_Holloway@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-3202</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Grace</AD_FirstName>
+    <AD_LastName>Holloway</AD_LastName>
+    <AD_Email>Grace_Holloway@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-3202</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Holloway, Grace</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>41</ID>
+    <Timestamp>2010-03-31T08:15:01-04:00</Timestamp>
+    <AccountName>cblazey</AccountName>
+    <LastName>Blazey</LastName>
+    <MiddleInitial />
+    <FirstName>Christine</FirstName>
+    <Email>Christine_Blazey@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-3202</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Christine</AD_FirstName>
+    <AD_LastName>Blazey</AD_LastName>
+    <AD_Email>Christine_Blazey@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-3202</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Blazey, Christine</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>42</ID>
+    <Timestamp>2010-03-31T08:24:15-04:00</Timestamp>
+    <AccountName>pkatzman</AccountName>
+    <LastName>Katzman</LastName>
+    <MiddleInitial>J</MiddleInitial>
+    <FirstName>Philip</FirstName>
+    <Email>Philip_Katzman@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4091</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Philip</AD_FirstName>
+    <AD_LastName>Katzman</AD_LastName>
+    <AD_Email>Philip_Katzman@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4091</AD_Phone>
+    <AD_MiddleInitial>J</AD_MiddleInitial>
+    <AD_CommonName>Katzman, Philip</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>43</ID>
+    <Timestamp>2010-03-31T08:24:15-04:00</Timestamp>
+    <AccountName>abokhari</AccountName>
+    <LastName>Bokhari</LastName>
+    <MiddleInitial />
+    <FirstName>Aqiba</FirstName>
+    <Email>Aqiba_Bokhari@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>275-3202</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Aqiba</AD_FirstName>
+    <AD_LastName>Bokhari</AD_LastName>
+    <AD_Email>Aqiba_Bokhari@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>275-3202</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Bokhari, Aqiba</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>44</ID>
+    <Timestamp>2010-03-31T08:24:15-04:00</Timestamp>
+    <AccountName>hmiyamoto</AccountName>
+    <LastName>Miyamoto</LastName>
+    <MiddleInitial />
+    <FirstName>Hiroshi</FirstName>
+    <Email>Hiroshi_Miyamoto@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-273-4580</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Hiroshi</AD_FirstName>
+    <AD_LastName>Miyamoto</AD_LastName>
+    <AD_Email>Hiroshi_Miyamoto@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-273-4580</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Miyamoto, Hiroshi</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>45</ID>
+    <Timestamp>2010-03-31T08:24:15-04:00</Timestamp>
+    <AccountName>cwhitneymiller</AccountName>
+    <LastName>Whitney-Miller</LastName>
+    <MiddleInitial>L</MiddleInitial>
+    <FirstName>Christa</FirstName>
+    <Email>Christa_Whitney-miller@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>(585) 275-3191</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Christa</AD_FirstName>
+    <AD_LastName>Whitney-Miller</AD_LastName>
+    <AD_Email>Christa_Whitney-miller@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>(585) 275-3191</AD_Phone>
+    <AD_MiddleInitial>L</AD_MiddleInitial>
+    <AD_CommonName>Whitney-miller, Christa</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>46</ID>
+    <Timestamp>2010-03-31T08:24:15-04:00</Timestamp>
+    <AccountName>dhryan</AccountName>
+    <LastName>Ryan</LastName>
+    <MiddleInitial />
+    <FirstName>Dan</FirstName>
+    <Email>Dan_Ryan@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-3184</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Dan</AD_FirstName>
+    <AD_LastName>Ryan</AD_LastName>
+    <AD_Email>Dan_Ryan@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-3184</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Ryan, Dan</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>47</ID>
+    <Timestamp>2010-03-31T08:24:15-04:00</Timestamp>
+    <AccountName>lmetlay</AccountName>
+    <LastName>Metlay</LastName>
+    <MiddleInitial />
+    <FirstName>Leon</FirstName>
+    <Email>Leon_Metlay@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>585-275-1600</Phone>
+    <Cell />
+    <AD_Department />
+    <AD_FirstName>Leon</AD_FirstName>
+    <AD_LastName>Metlay</AD_LastName>
+    <AD_Email>Leon_Metlay@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>585-275-1600</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Metlay, Leon</AD_CommonName>
+    <AD_Description />
+  </user>
+  <user>
+    <ID>48</ID>
+    <Timestamp>2010-03-31T08:24:15-04:00</Timestamp>
+    <AccountName>slapoint</AccountName>
+    <LastName>LaPoint</LastName>
+    <MiddleInitial />
+    <FirstName>Scott</FirstName>
+    <Email>Scott_Lapoint@URMC.Rochester.edu</Email>
+    <Shift>Unknown</Shift>
+    <Room />
+    <Phone>(585) 275-3202</Phone>
+    <Cell />
+    <AD_Department>Pathology</AD_Department>
+    <AD_FirstName>Scott</AD_FirstName>
+    <AD_LastName>LaPoint</AD_LastName>
+    <AD_Email>Scott_Lapoint@URMC.Rochester.edu</AD_Email>
+    <AD_Phone>(585) 275-3202</AD_Phone>
+    <AD_MiddleInitial />
+    <AD_CommonName>Lapoint, Scott</AD_CommonName>
+    <AD_Description />
+  </user>
+  
+</pathdirectory>

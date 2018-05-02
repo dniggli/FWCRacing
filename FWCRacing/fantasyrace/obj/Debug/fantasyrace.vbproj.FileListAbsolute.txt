@@ -1,0 +1,69 @@
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.exe
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.pdb
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.xml
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Form1.resources
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Resources.resources
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbproj.GenerateResource.Cache
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.exe
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.xml
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.pdb
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbproj.ResolveComReference.cache
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.dll
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.Systems.XmlNodeQuery.dll
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\HtmlAgilityPack.dll
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\SgmlReaderDll.dll
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.DriverUpdateForm.resources
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.UpdateResultForm.resources
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.exe.config
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.exe
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.pdb
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.xml
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.dll
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.Systems.XmlNodeQuery.dll
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\HtmlAgilityPack.dll
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\nunit.framework.dll
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\SgmlReaderDll.dll
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\ResolveAssemblyReference.cache
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbproj.ResolveComReference.cache
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.UpdateResultForm.resources
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.DriverUpdateForm.resources
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Form1.resources
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Resources.resources
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\ResGen.read.1.tlog
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\ResGen.write.1.tlog
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.exe
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.xml
+G:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.pdb
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.exe.config
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbproj.ResolveComReference.cache
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.exe
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.xml
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.pdb
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.exe
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.pdb
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.xml
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.dll
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\Fizzler.Systems.XmlNodeQuery.dll
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\HtmlAgilityPack.dll
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\nunit.framework.dll
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\SgmlReaderDll.dll
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.UpdateResultForm.resources
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.DriverUpdateForm.resources
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Form1.resources
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Resources.resources
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbprojResolveAssemblyReference.cache
+I:\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbproj.GenerateResource.Cache
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbprojResolveAssemblyReference.cache
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\bin\Debug\fantasyrace.exe.config
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbproj.ResolveComReference.cache
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.UpdateResultForm.resources
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.DriverUpdateForm.resources
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Form1.resources
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.Resources.resources
+C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Debug\fantasyrace.vbproj.GenerateResource.Cache

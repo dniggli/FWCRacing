@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "fantasyrace", "fantasyrace\fantasyrace.vbproj", "{420BD246-D038-4B95-A678-F8958BE9ED8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CB2", "..\..\..\SVN projects\CB2\CB2\CB2.csproj", "{EEDDCB44-CF09-45EA-883A-062D3E7BB10A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{420BD246-D038-4B95-A678-F8958BE9ED8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420BD246-D038-4B95-A678-F8958BE9ED8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420BD246-D038-4B95-A678-F8958BE9ED8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420BD246-D038-4B95-A678-F8958BE9ED8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDDCB44-CF09-45EA-883A-062D3E7BB10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDDCB44-CF09-45EA-883A-062D3E7BB10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDDCB44-CF09-45EA-883A-062D3E7BB10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDDCB44-CF09-45EA-883A-062D3E7BB10A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fastasyRaceC\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fastasyRaceC\obj\Debug\Form1.resources
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fastasyRaceC\obj\Debug\fastasyRaceC.Properties.Resources.resources
+C:\Documents and Settings\dniggli\My Documents\Visual Studio 2008\Projects\fantasyrace\fastasyRaceC\obj\Debug\fastasyRaceC.csproj.GenerateResource.Cache
