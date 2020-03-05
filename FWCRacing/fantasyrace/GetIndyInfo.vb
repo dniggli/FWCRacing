@@ -16,7 +16,7 @@ Module GetIndyInfo
 
     Sub getnewindycar()
 
-        Dim comm2 As New MySqlCommand("Truncate fantasy_race.indyresults", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+        Dim comm2 As New MySqlCommand("Truncate fantasy_race.indyresults", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
         comm2.Connection.Open()
         comm2.ExecuteNonQuery()
         comm2.Connection.Close()
@@ -150,7 +150,7 @@ Module GetIndyInfo
                         driver = driver + " Montoya"
                     End If
                     'Console.WriteLine(position + " " + pollgrid + " " + driver + " " + running + " " + circut + " " + laps)
-                    Dim comm As New MySqlCommand("insert into fantasy_race.indyresults(position,driver,laps,pollgrid,circut,running) Values ('" & position & "','" & driver & "','" & laps & "','" & pollgrid & "','" & circut & "','" & running & "')", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+                    Dim comm As New MySqlCommand("insert into fantasy_race.indyresults(position,driver,laps,pollgrid,circut,running) Values ('" & position & "','" & driver & "','" & laps & "','" & pollgrid & "','" & circut & "','" & running & "')", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
                     comm.Connection.Open()
                     comm.ExecuteNonQuery()
@@ -176,23 +176,23 @@ Module GetIndyInfo
             End If
 
             '   Console.WriteLine(s)
-           
+
         Next
 
-        
+
 
     End Sub
     Sub getindyinfo()
 
         Dim years As Integer = Now.Year
 
-        Dim comm2 As New MySqlCommand("Truncate fantasy_race.indyresults", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+        Dim comm2 As New MySqlCommand("Truncate fantasy_race.indyresults", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
         comm2.Connection.Open()
         comm2.ExecuteNonQuery()
         comm2.Connection.Close()
 
 
-        Dim dast As New MySqlDataAdapter("SELECT * FROM fantasy_race.indyracenumber order by racenumber desc limit 1 ", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim dast As New MySqlDataAdapter("SELECT * FROM fantasy_race.indyracenumber order by racenumber desc limit 1 ", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         dast.Fill(dt)
 
@@ -308,7 +308,7 @@ Module GetIndyInfo
                     If list(list2) = "Carlos Mu&ntilde;oz" Then list(list2) = "Carlos Munoz"
 
 
-                    Dim comm As New MySqlCommand("insert into fantasy_race.indyresults(position,driver,laps,pollgrid,circut,running) Values ('" & list(list0) & "','" & list(list2) & "','" & list(list12) & "','" & list(list1) & "','" & racelist(RaceNumbers) & "','" & list(list13) & "')", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+                    Dim comm As New MySqlCommand("insert into fantasy_race.indyresults(position,driver,laps,pollgrid,circut,running) Values ('" & list(list0) & "','" & list(list2) & "','" & list(list12) & "','" & list(list1) & "','" & racelist(RaceNumbers) & "','" & list(list13) & "')", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
                     comm.Connection.Open()
                     comm.ExecuteNonQuery()

@@ -4,7 +4,7 @@ Module WinPollLapsCountFunction
 
     Public Function Wincount(ByVal winteam As String) As String
         Dim wins As Integer = 0
-        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'Wins' FROM fantasy_race.raceresultsall where Team = '" & winteam & "'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'Wins' FROM fantasy_race.raceresultsall where Team = '" & winteam & "'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Console.WriteLine(winteam)
         Dim dt As New DataTable
         ds.Fill(dt)
@@ -27,7 +27,7 @@ Module WinPollLapsCountFunction
 
     Public Function pollcount(ByVal pollteam As String) As String
 
-        Dim ds As New MySqlDataAdapter("SELECT Team, count(Poll) as 'Poll' FROM fantasy_race.raceresultsall where Team = '" & pollteam & "' and Poll > '0'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, count(Poll) as 'Poll' FROM fantasy_race.raceresultsall where Team = '" & pollteam & "' and Poll > '0'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
 
@@ -39,7 +39,7 @@ Module WinPollLapsCountFunction
 
     Public Function pollpoints(ByVal pollteam As String) As String
 
-        Dim ds As New MySqlDataAdapter("SELECT Team, sum(Poll) as 'Poll' FROM fantasy_race.raceresultsall where Team = '" & pollteam & "' and Poll > '0'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, sum(Poll) as 'Poll' FROM fantasy_race.raceresultsall where Team = '" & pollteam & "' and Poll > '0'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
 
@@ -51,7 +51,7 @@ Module WinPollLapsCountFunction
 
     Public Function LapsLeadcount(ByVal lapteam As String) As String
 
-        Dim ds As New MySqlDataAdapter("SELECT Team, count(LapsLead) as 'Lap' FROM fantasy_race.raceresultsall where Team = '" & lapteam & "' and LapsLead > '0'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, count(LapsLead) as 'Lap' FROM fantasy_race.raceresultsall where Team = '" & lapteam & "' and LapsLead > '0'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
 
@@ -64,7 +64,7 @@ Module WinPollLapsCountFunction
 
     Public Function LapsLeadpoints(ByVal lapteam As String) As String
 
-        Dim ds As New MySqlDataAdapter("SELECT Team, sum(LapsLead) as 'Lap' FROM fantasy_race.raceresultsall where Team = '" & lapteam & "' and LapsLead > '0'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, sum(LapsLead) as 'Lap' FROM fantasy_race.raceresultsall where Team = '" & lapteam & "' and LapsLead > '0'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
 
@@ -77,7 +77,7 @@ Module WinPollLapsCountFunction
 
     Public Function topfive(ByVal topfiveteam As String) As String
         Dim topfives As Integer = 0
-        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'TopFive' FROM fantasy_race.raceresultsall where Team = '" & topfiveteam & "';", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'TopFive' FROM fantasy_race.raceresultsall where Team = '" & topfiveteam & "';", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
 
@@ -98,7 +98,7 @@ Module WinPollLapsCountFunction
 
     Public Function topten(ByVal toptenteam As String) As String
         Dim toptens As Integer = 0
-        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'TopTen' FROM fantasy_race.raceresultsall where Team = '" & toptenteam & "';", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'TopTen' FROM fantasy_race.raceresultsall where Team = '" & toptenteam & "';", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
 
@@ -119,7 +119,7 @@ Module WinPollLapsCountFunction
 
     Public Function DNFfunction(ByVal dnfteam As String) As String
 
-        Dim ds As New MySqlDataAdapter("SELECT Team, count(Position) as 'dnf' FROM fantasy_race.raceresultsall where Team = '" & dnfteam & "' and Position like '%D%'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, count(Position) as 'dnf' FROM fantasy_race.raceresultsall where Team = '" & dnfteam & "' and Position like '%D%'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
 
@@ -130,7 +130,7 @@ Module WinPollLapsCountFunction
 
     Public Function StageWins(ByVal SWTeam As String) As String
 
-        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'dnf' FROM fantasy_race.raceresultsall where Team = '" & SWTeam & "'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ds As New MySqlDataAdapter("SELECT Team, Position as 'dnf' FROM fantasy_race.raceresultsall where Team = '" & SWTeam & "'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ds.Fill(dt)
         Dim n As Integer = 0
@@ -156,7 +156,7 @@ Module WinPollLapsCountFunction
 
     Public Function pointsbehind(ByVal behind As String) As String
 
-        Dim dp As New MySqlDataAdapter("Select Team, sum(Points)+ sum(Poll)+ sum(LapsLead) as 'total' from fantasy_race.raceresultsall group by Team order by total desc", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim dp As New MySqlDataAdapter("Select Team, sum(Points)+ sum(Poll)+ sum(LapsLead) as 'total' from fantasy_race.raceresultsall group by Team order by total desc", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
 
         dp.Fill(dt)
@@ -168,7 +168,7 @@ Module WinPollLapsCountFunction
 
 
 
-        Dim dpr As New MySqlDataAdapter("Select Team, sum(Points)+ sum(Poll)+ sum(LapsLead) as 'pointer' from fantasy_race.raceresultsall where TeamNumber = '" & behind & "' group by Team order by pointer desc", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim dpr As New MySqlDataAdapter("Select Team, sum(Points)+ sum(Poll)+ sum(LapsLead) as 'pointer' from fantasy_race.raceresultsall where TeamNumber = '" & behind & "' group by Team order by pointer desc", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dtr As New DataTable
         dpr.Fill(dtr)
 
@@ -187,7 +187,7 @@ Module WinPollLapsCountFunction
     Public Function totalpoints(ByVal totals As String) As String
 
 
-        Dim dpr As New MySqlDataAdapter("Select Team, sum(Points)as 'pointer', sum(Poll)as 'poll', sum(LapsLead) as 'lap' from fantasy_race.raceresultsall where TeamNumber = '" & totals & "' group by Team order by pointer desc", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim dpr As New MySqlDataAdapter("Select Team, sum(Points)as 'pointer', sum(Poll)as 'poll', sum(LapsLead) as 'lap' from fantasy_race.raceresultsall where TeamNumber = '" & totals & "' group by Team order by pointer desc", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dtr As New DataTable
         dpr.Fill(dtr)
 

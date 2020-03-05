@@ -56,7 +56,7 @@ Public Class DriverUpdateForm
 
         If Panel1.Enabled Then Panel1.Enabled = False
 
-        Dim ch As New MySqlDataAdapter("select * from fantasy_race.teams;", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim ch As New MySqlDataAdapter("select * from fantasy_race.teams;", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         ch.Fill(dt)
 
@@ -101,7 +101,7 @@ Public Class DriverUpdateForm
             End If
 
 
-            Dim drivers As New MySqlDataAdapter("select * from fantasy_race." & series & " where TeamNumber = '" & teams & "'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+            Dim drivers As New MySqlDataAdapter("select * from fantasy_race." & series & " where TeamNumber = '" & teams & "'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
             Dim dtf1 As New DataTable
 
             drivers.Fill(dtf1)
@@ -116,7 +116,7 @@ Public Class DriverUpdateForm
         Else
             Panel1.Enabled = True
 
-            Dim nascar As New MySqlDataAdapter("select nascara.Class as 'Classa',nascara.NasCarADriver,nascarb.NasCarBDriver,nascarb.Class as 'Classb' from fantasy_race.nascara, fantasy_race.nascarb where nascara.TeamNumber = '" & teams & "' and nascara.TeamNumber = nascarb.TeamNumber;", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+            Dim nascar As New MySqlDataAdapter("select nascara.Class as 'Classa',nascara.NasCarADriver,nascarb.NasCarBDriver,nascarb.Class as 'Classb' from fantasy_race.nascara, fantasy_race.nascarb where nascara.TeamNumber = '" & teams & "' and nascara.TeamNumber = nascarb.TeamNumber;", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
             Dim nas As New DataTable
             nascar.Fill(nas)
 
@@ -164,7 +164,7 @@ Public Class DriverUpdateForm
 
         If ComboBox1.Text = "F1" Then
 
-            Dim comm As New MySqlCommand("update fantasy_race.f1 set F1Driver = '" & TextBoxDriver.Text & "',Class = '" & TextBoxClass1.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm As New MySqlCommand("update fantasy_race.f1 set F1Driver = '" & TextBoxDriver.Text & "',Class = '" & TextBoxClass1.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm.Connection.Open()
             comm.ExecuteNonQuery()
@@ -177,7 +177,7 @@ Public Class DriverUpdateForm
 
         If ComboBox1.Text = "Indy" Then
 
-            Dim comm As New MySqlCommand("update fantasy_race.indy set IndyDriver = '" & TextBoxDriver.Text & "',Class = '" & TextBoxClass1.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm As New MySqlCommand("update fantasy_race.indy set IndyDriver = '" & TextBoxDriver.Text & "',Class = '" & TextBoxClass1.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm.Connection.Open()
             comm.ExecuteNonQuery()
@@ -193,18 +193,18 @@ Public Class DriverUpdateForm
             'Console.WriteLine(teamdict(TextBoxTeam.Text))
 
 
-            Dim comm As New MySqlCommand("update fantasy_race.nascara set NasCarADriver = '" & TextBoxDriver.Text & "',Class = '" & TextBoxClass1.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm As New MySqlCommand("update fantasy_race.nascara set NasCarADriver = '" & TextBoxDriver.Text & "',Class = '" & TextBoxClass1.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm.Connection.Open()
             comm.ExecuteNonQuery()
             comm.Connection.Close()
 
-            Dim commz As New MySqlCommand("update fantasy_race.teams set Team ='" & TextBoxTeam.Text & "' where Number = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim commz As New MySqlCommand("update fantasy_race.teams set Team ='" & TextBoxTeam.Text & "' where Number = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
             commz.Connection.Open()
             commz.ExecuteNonQuery()
             commz.Connection.Close()
 
-            Dim comm1 As New MySqlCommand("update fantasy_race.nascarb set NasCarbDriver = '" & TextBoxDriver2.Text & "',Class = '" & TextBoxClass2.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm1 As New MySqlCommand("update fantasy_race.nascarb set NasCarbDriver = '" & TextBoxDriver2.Text & "',Class = '" & TextBoxClass2.Text & "' where TeamNumber = '" & teamnum & "'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm1.Connection.Open()
             comm1.ExecuteNonQuery()

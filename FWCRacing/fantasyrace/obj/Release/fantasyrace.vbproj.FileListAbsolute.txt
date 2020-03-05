@@ -25,3 +25,41 @@ C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\o
 C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Release\fantasyrace.xml
 C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Release\fantasyrace.pdb
 C:\Users\dniggli\Documents\Visual Studio 2008\Projects\fantasyrace\fantasyrace\obj\Release\fantasyrace.vbprojResolveAssemblyReference.cache
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\fantasyrace.exe.config
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\fantasyrace.exe
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\fantasyrace.pdb
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\fantasyrace.xml
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\CodeBase2.dll
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\MySql.Data.dll
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\nunit.framework.xml
+C:\Users\dniggli\github\FWCRacing\fantasyrace\bin\Release\Interop.Microsoft.Office.Core.dll
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbproj.ResolveComReference.cache
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.UpdateResultForm.resources
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.DriverUpdateForm.resources
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.Form1.resources
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.Resources.resources
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbproj.GenerateResource.Cache
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.exe
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.xml
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.pdb
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbprojAssemblyReference.cache
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbproj.CoreCompileInputs.cache
+C:\Users\dniggli\github\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbproj.CopyComplete
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\bin\Release\fantasyrace.exe.config
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\bin\Release\fantasyrace.exe
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\bin\Release\fantasyrace.pdb
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\bin\Release\fantasyrace.xml
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\bin\Release\CodeBase2.dll
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\bin\Release\MySql.Data.dll
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbproj.ResolveComReference.cache
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.UpdateResultForm.resources
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.DriverUpdateForm.resources
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.Form1.resources
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.Resources.resources
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbproj.GenerateResource.cache
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbproj.CopyComplete
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.exe
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.xml
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.pdb
+C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbprojAssemblyReference.cache

@@ -383,6 +383,9 @@ Partial Class Form1
         Me.TextBoxRaceListNum = New System.Windows.Forms.TextBox()
         Me.TextBoxUrl = New System.Windows.Forms.TextBox()
         Me.TextBoxF1url = New System.Windows.Forms.TextBox()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.TextBoxnascarxC = New System.Windows.Forms.TextBox()
+        Me.Label92 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBoxINDY.SuspendLayout()
         Me.GroupBoxnascara.SuspendLayout()
@@ -2308,7 +2311,7 @@ Partial Class Form1
         Me.GroupBoxnascara.TabIndex = 8
         Me.GroupBoxnascara.TabStop = False
         Me.GroupBoxnascara.Tag = ""
-        Me.GroupBoxnascara.Text = "Nascar A"
+        Me.GroupBoxnascara.Text = "Nascar Cup"
         '
         'CheckBox76
         '
@@ -3106,6 +3109,8 @@ Partial Class Form1
         '
         'GroupBoxnascarb
         '
+        Me.GroupBoxnascarb.Controls.Add(Me.TextBoxnascarxC)
+        Me.GroupBoxnascarb.Controls.Add(Me.Label92)
         Me.GroupBoxnascarb.Controls.Add(Me.CheckBox75)
         Me.GroupBoxnascarb.Controls.Add(Me.RadioButton74)
         Me.GroupBoxnascarb.Controls.Add(Me.TextBox69)
@@ -3193,7 +3198,7 @@ Partial Class Form1
         Me.GroupBoxnascarb.Size = New System.Drawing.Size(279, 662)
         Me.GroupBoxnascarb.TabIndex = 9
         Me.GroupBoxnascarb.TabStop = False
-        Me.GroupBoxnascarb.Text = "Nascar B"
+        Me.GroupBoxnascarb.Text = "Nascar Xfin"
         '
         'CheckBox75
         '
@@ -4096,7 +4101,7 @@ Partial Class Form1
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(392, 7)
+        Me.Button5.Location = New System.Drawing.Point(306, 9)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 78
@@ -4105,7 +4110,7 @@ Partial Class Form1
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(306, 38)
+        Me.Button6.Location = New System.Drawing.Point(393, 8)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 79
@@ -4114,7 +4119,7 @@ Partial Class Form1
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(392, 38)
+        Me.Button7.Location = New System.Drawing.Point(306, 39)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(75, 23)
         Me.Button7.TabIndex = 80
@@ -4176,7 +4181,7 @@ Partial Class Form1
         'Label91
         '
         Me.Label91.AutoSize = True
-        Me.Label91.Location = New System.Drawing.Point(211, 13)
+        Me.Label91.Location = New System.Drawing.Point(177, 15)
         Me.Label91.Name = "Label91"
         Me.Label91.Size = New System.Drawing.Size(59, 13)
         Me.Label91.TabIndex = 87
@@ -4184,7 +4189,7 @@ Partial Class Form1
         '
         'TextBoxRaceListNum
         '
-        Me.TextBoxRaceListNum.Location = New System.Drawing.Point(276, 10)
+        Me.TextBoxRaceListNum.Location = New System.Drawing.Point(242, 12)
         Me.TextBoxRaceListNum.Name = "TextBoxRaceListNum"
         Me.TextBoxRaceListNum.Size = New System.Drawing.Size(30, 20)
         Me.TextBoxRaceListNum.TabIndex = 88
@@ -4202,13 +4207,40 @@ Partial Class Form1
         Me.TextBoxF1url.Name = "TextBoxF1url"
         Me.TextBoxF1url.Size = New System.Drawing.Size(199, 20)
         Me.TextBoxF1url.TabIndex = 91
-        Me.TextBoxF1url.Text = "https://www.foxsports.com/motor/results?circuit=1&season=2018&raceCode=18"
+        Me.TextBoxF1url.Text = "https://www.motorsport.com/f1/results/2019/bahrain-gp/"
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(393, 39)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(75, 23)
+        Me.Button10.TabIndex = 92
+        Me.Button10.Text = "NascarXinfo"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'TextBoxnascarxC
+        '
+        Me.TextBoxnascarxC.Location = New System.Drawing.Point(91, 22)
+        Me.TextBoxnascarxC.Name = "TextBoxnascarxC"
+        Me.TextBoxnascarxC.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxnascarxC.TabIndex = 87
+        Me.TextBoxnascarxC.Tag = "113"
+        '
+        'Label92
+        '
+        Me.Label92.AutoSize = True
+        Me.Label92.Location = New System.Drawing.Point(42, 25)
+        Me.Label92.Name = "Label92"
+        Me.Label92.Size = New System.Drawing.Size(43, 13)
+        Me.Label92.TabIndex = 86
+        Me.Label92.Text = "Circut ="
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1156, 831)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.TextBoxF1url)
         Me.Controls.Add(Me.TextBoxUrl)
         Me.Controls.Add(Me.TextBoxRaceListNum)
@@ -4618,5 +4650,8 @@ Partial Class Form1
     Friend WithEvents TextBoxRaceListNum As System.Windows.Forms.TextBox
     Friend WithEvents TextBoxUrl As System.Windows.Forms.TextBox
     Friend WithEvents TextBoxF1url As System.Windows.Forms.TextBox
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents TextBoxnascarxC As System.Windows.Forms.TextBox
+    Friend WithEvents Label92 As System.Windows.Forms.Label
 
 End Class

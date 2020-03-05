@@ -19,7 +19,7 @@ Module GetF1Info
 
         '********* Uses site "https://www.foxsports.com/motor/results?circuit=1&season=2018&raceCode=18" for data scarping.************ 
 
-        Dim comm2 As New MySqlCommand("Truncate fantasy_race.f1results", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+        Dim comm2 As New MySqlCommand("Truncate fantasy_race.f1results", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
         comm2.Connection.Open()
         comm2.ExecuteNonQuery()
         comm2.Connection.Close()
@@ -146,7 +146,7 @@ Module GetF1Info
                         driver = driver + " Montoya"
                     End If
                     'Console.WriteLine(position + " " + pollgrid + " " + driver + " " + running + " " + circut + " " + laps)
-                    Dim comm As New MySqlCommand("insert into fantasy_race.indyresults(position,driver,laps,pollgrid,circut,running) Values ('" & position & "','" & driver & "','" & laps & "','" & pollgrid & "','" & circut & "','" & running & "')", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+                    Dim comm As New MySqlCommand("insert into fantasy_race.indyresults(position,driver,laps,pollgrid,circut,running) Values ('" & position & "','" & driver & "','" & laps & "','" & pollgrid & "','" & circut & "','" & running & "')", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
                     comm.Connection.Open()
                     comm.ExecuteNonQuery()
@@ -187,13 +187,13 @@ Module GetF1Info
 
 
 
-        Dim comm2 As New MySqlCommand("Truncate fantasy_race.f1results", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+        Dim comm2 As New MySqlCommand("Truncate fantasy_race.f1results", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
         comm2.Connection.Open()
         comm2.ExecuteNonQuery()
         comm2.Connection.Close()
 
 
-        Dim dast As New MySqlDataAdapter("SELECT * FROM fantasy_race.f1racenumber order by racenumber desc limit 1 ", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+        Dim dast As New MySqlDataAdapter("SELECT * FROM fantasy_race.f1racenumber order by racenumber desc limit 1 ", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
         Dim dt As New DataTable
         dast.Fill(dt)
 
@@ -269,7 +269,7 @@ Module GetF1Info
             Dim list As New List(Of String)
             For Each t As HtmlNode In table
                 rows = t.QuerySelectorAll("td")
-                Console.WriteLine(t.InnerHtml)
+                'Console.WriteLine(t.InnerHtml)
                 'For Each r As HtmlNode In rows
                 Dim cells = t.QuerySelectorAll("td")
 
@@ -278,7 +278,7 @@ Module GetF1Info
                     If c.QuerySelector("a") IsNot Nothing Then
                         'list add
                         list.Add(c.QuerySelector("a").InnerText)
-                        Console.WriteLine(c.QuerySelector("a").InnerText)
+                        'Console.WriteLine(c.QuerySelector("a").InnerText)
                     Else
                         'list add
                         list.Add(c.InnerText)
@@ -293,7 +293,7 @@ Module GetF1Info
 
             Next
             Try
-                Do Until list1 = 300
+                Do Until list1 = 400
 
                     'Dim lpper As String = list(list8).ToString
                     'Dim laplead As Match = Regex.Match(lpper, "([\w]+) ([0-9]+)")
@@ -326,15 +326,16 @@ Module GetF1Info
                     'If r.IsMatch(list(list15).ToString) Then list(list15) = "running"
                     'If rx.IsMatch(list(list15).ToString) Then list(list15) = "running"
                     'If rex.IsMatch(list(list15).ToString) Then list(list15) = "running"
-                    If list(list6) = "" Then list(list6) = "running"
-                    list(list1) = list(list1).Trim
-                    Dim comm As New MySqlCommand("insert into fantasy_race.f1results(position,driver,laps,pollgrid,circut,running) Values ('" & list(list0) & "','" & list(list1) & "','" & list(list5) & "','" & list(list3) & "','" & circ & "','" & list(list6) & "')", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+                    If list(list1).Contains("  ") Then list(list1) = "running"
+                    list(list3) = list(list3).Trim
+                    If list(list0) = "  " Then list(list0) = "100"
+                    Dim comm As New MySqlCommand("insert into fantasy_race.f1results(position,driver,laps,pollgrid,circut,running) Values ('" & list(list0) & "','" & list(list3) & "',0,0,'" & circ & "','" & list(list1) & "')", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
                     comm.Connection.Open()
                     comm.ExecuteNonQuery()
                     comm.Connection.Close()
 
-                    Dim n2 As Integer = 9
+                    Dim n2 As Integer = 15
                     list0 = list0 + n2
                     list1 = list1 + n2
                     list2 = list2 + n2
@@ -356,14 +357,14 @@ Module GetF1Info
 
                 'dotrace = dotrace + 1
                 'race = race + 1
-                'Dim comm1 As New MySqlCommand("insert into fantasy_race.f1racenumber(f1dotcom,racenumber) Values ('" & dotrace & "','" & race & "')", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+                'Dim comm1 As New MySqlCommand("insert into fantasy_race.f1racenumber(f1dotcom,racenumber) Values ('" & dotrace & "','" & race & "')", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
                 'comm1.Connection.Open()
                 'comm1.ExecuteNonQuery()
                 'comm1.Connection.Close()
 
             Catch
-               
+
             End Try
 
 

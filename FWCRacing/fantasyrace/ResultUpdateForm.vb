@@ -81,7 +81,7 @@ Public Class UpdateResultForm
             End If
 
 
-            Dim drivers As New MySqlDataAdapter("select * from fantasy_race.raceresultsf1indy where F1orIndy = '" & series & "' group by Circut order by 'key'", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+            Dim drivers As New MySqlDataAdapter("select * from fantasy_race.raceresultsf1indy where F1orIndy = '" & series & "' group by Circut order by 'key'", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
             Dim dtf1 As New DataTable
 
             drivers.Fill(dtf1)
@@ -105,7 +105,7 @@ Public Class UpdateResultForm
         Else
 
 
-            Dim nascar As New MySqlDataAdapter("select * from fantasy_race.raceresultsnascara group by Circut order by 'key';", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+            Dim nascar As New MySqlDataAdapter("select * from fantasy_race.raceresultsnascara group by Circut order by 'key';", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
             Dim nas As New DataTable
             nascar.Fill(nas)
 
@@ -150,7 +150,7 @@ Public Class UpdateResultForm
 
             If Panel1.Enabled Then Panel1.Enabled = False
 
-            Dim ch As New MySqlDataAdapter("select * from fantasy_race.teams;", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+            Dim ch As New MySqlDataAdapter("select * from fantasy_race.teams;", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
             Dim dt As New DataTable
             ch.Fill(dt)
 
@@ -222,7 +222,7 @@ Public Class UpdateResultForm
                 End If
 
 
-                Dim drivers As New MySqlDataAdapter("select * from fantasy_race.raceresultsf1indy where Team = '" & ListBoxTeams.Text & "' and F1orIndy = '" & series & "' and Circut = '" & Circut.Groups(2).Value & "';", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+                Dim drivers As New MySqlDataAdapter("select * from fantasy_race.raceresultsf1indy where Team = '" & ListBoxTeams.Text & "' and F1orIndy = '" & series & "' and Circut = '" & Circut.Groups(2).Value & "';", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
                 Dim dtf1 As New DataTable
 
                 drivers.Fill(dtf1)
@@ -242,7 +242,7 @@ Public Class UpdateResultForm
             Else
                 Panel1.Enabled = True
 
-                Dim nascar As New MySqlDataAdapter("select raceresultsnascara.Driver as 'Drivera',raceresultsnascarb.Driver as 'Driverb',raceresultsnascara.Position as 'Positiona',raceresultsnascarb.Position as 'Positionb',raceresultsnascara.Points as 'Pointsa',raceresultsnascarb.Points as 'Pointsb',raceresultsnascara.Poll as 'Polla',raceresultsnascarb.Poll as 'Pollb',raceresultsnascara.LapsLead as 'lapsa',raceresultsnascarb.LapsLead as 'lapsb' from fantasy_race.raceresultsnascara, fantasy_race.raceresultsnascarb where raceresultsnascara.Team = '" & ListBoxTeams.Text & "' and raceresultsnascara.Team = raceresultsnascarb.Team and raceresultsnascara.Circut = '" & Circut.Groups(2).Value & "' and raceresultsnascara.Week = '" & week.Groups(0).Value & "' and raceresultsnascara.Week = raceresultsnascarb.Week ;", "server=" & Form1.server & ";uid=root;pwd=vvo084;")
+                Dim nascar As New MySqlDataAdapter("select raceresultsnascara.Driver as 'Drivera',raceresultsnascarb.Driver as 'Driverb',raceresultsnascara.Position as 'Positiona',raceresultsnascarb.Position as 'Positionb',raceresultsnascara.Points as 'Pointsa',raceresultsnascarb.Points as 'Pointsb',raceresultsnascara.Poll as 'Polla',raceresultsnascarb.Poll as 'Pollb',raceresultsnascara.LapsLead as 'lapsa',raceresultsnascarb.LapsLead as 'lapsb' from fantasy_race.raceresultsnascara, fantasy_race.raceresultsnascarb where raceresultsnascara.Team = '" & ListBoxTeams.Text & "' and raceresultsnascara.Team = raceresultsnascarb.Team and raceresultsnascara.Circut = '" & Circut.Groups(2).Value & "' and raceresultsnascara.Week = '" & week.Groups(0).Value & "' and raceresultsnascara.Week = raceresultsnascarb.Week ;", "server=" & Form1.server & ";uid=dave;pwd=vvo084;")
                 Dim nas As New DataTable
                 nascar.Fill(nas)
 
@@ -344,7 +344,7 @@ Public Class UpdateResultForm
 
         If ComboBoxSeries.Text = "F1" Then
 
-            Dim comm As New MySqlCommand("update fantasy_race.raceresultsf1indy set Driver = '" & TextBoxDriver.Text & "',Points = '" & TextBoxpoints.Text & "',Position = '" & TextBoxCPosition.Text & "',Poll = '" & poll & "',LapsLead = '" & lapslead & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "' and F1orIndy = '1'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm As New MySqlCommand("update fantasy_race.raceresultsf1indy set Driver = '" & TextBoxDriver.Text & "',Points = '" & TextBoxpoints.Text & "',Position = '" & TextBoxCPosition.Text & "',Poll = '" & poll & "',LapsLead = '" & lapslead & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "' and F1orIndy = '1'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm.Connection.Open()
             comm.ExecuteNonQuery()
@@ -357,7 +357,7 @@ Public Class UpdateResultForm
 
         If ComboBoxSeries.Text = "Indy" Then
 
-            Dim comm As New MySqlCommand("update fantasy_race.raceresultsf1indy set Points = '" & TextBoxpoints.Text & "',Position = '" & TextBoxCPosition.Text & "',Poll = '" & poll & "',LapsLead = '" & lapslead & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "' and F1orIndy = '0'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm As New MySqlCommand("update fantasy_race.raceresultsf1indy set Points = '" & TextBoxpoints.Text & "',Position = '" & TextBoxCPosition.Text & "',Poll = '" & poll & "',LapsLead = '" & lapslead & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "' and F1orIndy = '0'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm.Connection.Open()
             comm.ExecuteNonQuery()
@@ -371,13 +371,13 @@ Public Class UpdateResultForm
         If ComboBoxSeries.Text = "Nascar" Then
 
 
-            Dim comm As New MySqlCommand("update fantasy_race.raceresultsnascara set Points = '" & TextBoxpoints.Text & "',Position = '" & TextBoxCPosition.Text & "',Poll = '" & poll & "',LapsLead = '" & lapslead & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm As New MySqlCommand("update fantasy_race.raceresultsnascara set Points = '" & TextBoxpoints.Text & "',Position = '" & TextBoxCPosition.Text & "',Poll = '" & poll & "',LapsLead = '" & lapslead & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm.Connection.Open()
             comm.ExecuteNonQuery()
             comm.Connection.Close()
 
-            Dim comm1 As New MySqlCommand("update fantasy_race.raceresultsnascarb set Points = '" & TextBoxpoints2.Text & "',Position = '" & TextBoxPosition2.Text & "',Poll = '" & poll2 & "',LapsLead = '" & lapslead2 & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "'", New MySqlConnection("server=" & Form1.server & ";uid=root;pwd=vvo084;"))
+            Dim comm1 As New MySqlCommand("update fantasy_race.raceresultsnascarb set Points = '" & TextBoxpoints2.Text & "',Position = '" & TextBoxPosition2.Text & "',Poll = '" & poll2 & "',LapsLead = '" & lapslead2 & "' where Team = '" & TextBoxTeam.Text & "' and Circut = '" & Circut.Groups(2).Value & "' and Week = '" & week.Groups(0).Value & "'", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
 
             comm1.Connection.Open()
             comm1.ExecuteNonQuery()
