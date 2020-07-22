@@ -2,6 +2,7 @@
 Imports MySql.Data.MySqlClient
 Imports System.Text.RegularExpressions
 Imports System.IO
+Imports System.Web
 Imports CodeBase2.Web
 Imports HtmlAgilityPack
 Imports Fizzler
@@ -39,6 +40,8 @@ Module GetIndyInfo
         End If
         Dim cnt As Integer = 0
 
+        ' Dim txttttttt As String = System.Web.HttpContext.Current.Server.MapPath(Form1.TextBoxUrl.Text)
+        'Console.WriteLine(txttttttt)
         Dim position As String = String.Empty
         Dim driver As String = String.Empty
         Dim laps As String = 0

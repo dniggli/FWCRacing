@@ -278,6 +278,8 @@ Partial Class Form1
         Me.TextBoxnascarcircut = New System.Windows.Forms.TextBox()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.GroupBoxnascarb = New System.Windows.Forms.GroupBox()
+        Me.TextBoxnascarxC = New System.Windows.Forms.TextBox()
+        Me.Label92 = New System.Windows.Forms.Label()
         Me.CheckBox75 = New System.Windows.Forms.CheckBox()
         Me.RadioButton74 = New System.Windows.Forms.RadioButton()
         Me.TextBox69 = New System.Windows.Forms.TextBox()
@@ -384,8 +386,6 @@ Partial Class Form1
         Me.TextBoxUrl = New System.Windows.Forms.TextBox()
         Me.TextBoxF1url = New System.Windows.Forms.TextBox()
         Me.Button10 = New System.Windows.Forms.Button()
-        Me.TextBoxnascarxC = New System.Windows.Forms.TextBox()
-        Me.Label92 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBoxINDY.SuspendLayout()
         Me.GroupBoxnascara.SuspendLayout()
@@ -3200,6 +3200,23 @@ Partial Class Form1
         Me.GroupBoxnascarb.TabStop = False
         Me.GroupBoxnascarb.Text = "Nascar Xfin"
         '
+        'TextBoxnascarxC
+        '
+        Me.TextBoxnascarxC.Location = New System.Drawing.Point(91, 22)
+        Me.TextBoxnascarxC.Name = "TextBoxnascarxC"
+        Me.TextBoxnascarxC.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxnascarxC.TabIndex = 87
+        Me.TextBoxnascarxC.Tag = "113"
+        '
+        'Label92
+        '
+        Me.Label92.AutoSize = True
+        Me.Label92.Location = New System.Drawing.Point(42, 25)
+        Me.Label92.Name = "Label92"
+        Me.Label92.Size = New System.Drawing.Size(43, 13)
+        Me.Label92.TabIndex = 86
+        Me.Label92.Text = "Circut ="
+        '
         'CheckBox75
         '
         Me.CheckBox75.AutoSize = True
@@ -4217,23 +4234,6 @@ Partial Class Form1
         Me.Button10.TabIndex = 92
         Me.Button10.Text = "NascarXinfo"
         Me.Button10.UseVisualStyleBackColor = True
-        '
-        'TextBoxnascarxC
-        '
-        Me.TextBoxnascarxC.Location = New System.Drawing.Point(91, 22)
-        Me.TextBoxnascarxC.Name = "TextBoxnascarxC"
-        Me.TextBoxnascarxC.Size = New System.Drawing.Size(100, 20)
-        Me.TextBoxnascarxC.TabIndex = 87
-        Me.TextBoxnascarxC.Tag = "113"
-        '
-        'Label92
-        '
-        Me.Label92.AutoSize = True
-        Me.Label92.Location = New System.Drawing.Point(42, 25)
-        Me.Label92.Name = "Label92"
-        Me.Label92.Size = New System.Drawing.Size(43, 13)
-        Me.Label92.TabIndex = 86
-        Me.Label92.Text = "Circut ="
         '
         'Form1
         '

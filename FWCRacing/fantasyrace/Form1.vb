@@ -16,6 +16,8 @@ Imports System.Threading
 
 
 
+
+
 Public Class Form1
 
     Public Shared NascarURL As String
@@ -25,6 +27,7 @@ Public Class Form1
     Dim standings As Thread
     Dim driverupdates As Thread
     Dim updatestats As Thread
+    Public Shared CText As String
 
     Public pathDir As String = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) & "\Fantasy Race\"
 
@@ -108,7 +111,7 @@ Public Class Form1
             retriveNascarA()
             retriveNascarB()
 
-      
+
 
 
         Catch
@@ -573,6 +576,9 @@ Public Class Form1
 
 
 
+
+
+
                         If dnf Like "D*" Then
                             If clas = "A" Then points = points + dnftest(0)
                             If clas = "B" Then points = points + dnftest(1)
@@ -647,6 +653,7 @@ Public Class Form1
 
         Next
     End Sub
+
     'Function dnfs(ByVal DNF As String, ByVal POS As String) As Boolean
 
 
@@ -924,7 +931,7 @@ Public Class Form1
                 ' Dim stg1 As String = dr("stagewin").ToString
 
 
-
+                Console.WriteLine(poll)
                 For Each ctl As Control In GroupBoxnascara.Controls
 
                     If pos = "100" Then pos = "DNF"
@@ -2313,7 +2320,8 @@ Public Class Form1
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
-
+        CText = TextBoxF1url.Text
+        Console.WriteLine(CText)
         GetIndyInfo.getnewindycar()
         populateindyresults()
     End Sub
@@ -2545,6 +2553,19 @@ Public Class Form1
         Return theteamlist
     End Function
 
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+
+        Dim comm2 As New MySqlCommand("Truncate fantasy_race.nascarresults", New MySqlConnection("server=" & Form1.server & ";uid=dave;pwd=vvo084;"))
+        comm2.Connection.Open()
+        comm2.ExecuteNonQuery()
+        comm2.Connection.Close()
+
+        GetNascarx.getnascarinfo(TextBoxUrl.Text)
+        populatenascarreults()
+    End Sub
+
+
 End Class
+
 
 

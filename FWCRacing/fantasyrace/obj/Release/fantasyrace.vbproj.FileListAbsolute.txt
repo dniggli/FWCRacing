@@ -62,4 +62,3 @@ C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbpro
 C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.exe
 C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.xml
 C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.pdb
-C:\Users\Dave\Gits\FWCRacing\FWCRacing\fantasyrace\obj\Release\fantasyrace.vbprojAssemblyReference.cache
